@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eef2ff;
+  height: 100vh;
+  overflow: 0;
+}
+
+.logo {
+  background: linear-gradient(to bottom, white, white, #d4d4d4);
+}
+
+.chatbox-container {
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  /* Add a subtle shadow */
+}
+
+.chatbox-header {
+  border-radius: 5px 5px 0 0;
+  background: linear-gradient(to bottom, #487bff, #1753f0);
+}
+
+.chatbox-footer {
+  border-radius: 0 0 5px 5px;
+}
+
+.user {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.content {
+  border-radius: 5px;
+  background-color: #eaf3ff;
+  font-size: 13px;
+  font-weight: 700;
+  max-width: 60%;
+}
+
+@media (max-width: 768px) {
+  .content {
+    max-width: 100%;
+    /* Adjust for smaller screens */
+  }
+}
+
+.time {
+  color: #a9a9a9;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.btn-send {
+  background: linear-gradient(to bottom, #487bff, #1753f0);
+  font-size: 13px;
+  border-radius: 2px;
+}
+
+footer {
+  background-color: #031c3e;
+  color: grey;
+}
+
+.chat {
+  height: 100px; /* to trigger overflow */
+}
